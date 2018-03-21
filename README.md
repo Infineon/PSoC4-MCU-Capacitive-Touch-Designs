@@ -14,7 +14,8 @@ Feel free to explore through the code example source files and Let us innovate t
 
 # Navigating the Repository
 
-This repository provides examples that demonstrates how to develop PSoC 4 MCU based analog CapSense designs. 
+This repository provides examples that demonstrates how to develop capacitive touch sensing applications with PSoC 4 MCU using the Cypress’ CapSense feature. The CapSense feature offers unprecedented signal-to-noise ratio, best-in-class liquid tolerance, and a wide variety of sensors such as buttons, sliders, trackpads and proximity sensors.
+
 If you are new to developing projects with PSoC 4 MCU, we recommend you to refer the PSoC 4 Getting Started GitHub page which can help you familiarize with device features and guides you to create a simple PSoC 4 design with PSoC Creator IDE. For other block specific designs please refer to the following GitHub repositories:
 
 #### 1. [Getting Started](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Getting-Started)
@@ -26,7 +27,7 @@ If you are new to developing projects with PSoC 4 MCU, we recommend you to refer
 #### 7. [PSoC 4 Pioneer Kit](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Pioneer-Kits)
 #### 8. System Design
 
-You can use these block level examples to guide you through the development of a system-level design. All the code examples in this repository comes with well documented design guidelines to help you understand the design and how to develop it. The code examples and their associated documentation are in the Code Example folder in the repository. 
+You can use these block level examples to guide you through the development of a system-level design. All the code examples in this repository comes with well documented design guidelines to help you understand the design and how to develop it. The code examples and their associated documentation are in the Code Example folder in the repository.
 
 # Required Tools
 
