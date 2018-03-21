@@ -21,9 +21,10 @@ If you are new to developing projects with PSoC 4 MCU, we recommend you to refer
 #### 2. Analog Designs
 #### 3. [Digital Designs](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Digital-Designs)
 #### 4. BLE
-#### 5. [Device Related Designs](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Device-Related-Designs)
-#### 6. [PSoC 4 Pioneer Kit](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Pioneer-Kits)
-#### 7. System Design
+#### 5. [USB](https://github.com/cypresssemiconductorco/PSoC-4-MCU-USB-Connectivity-Designs)
+#### 6. [Device Related Designs](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Device-Related-Designs)
+#### 7. [PSoC 4 Pioneer Kit](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Pioneer-Kits)
+#### 8. System Design
 
 You can use these block level examples to guide you through the development of a system-level design. All the code examples in this repository comes with well documented design guidelines to help you understand the design and how to develop it. The code examples and their associated documentation are in the Code Example folder in the repository. 
 
@@ -51,18 +52,14 @@ To use the code examples in this repository, please download and install
 **Note** Please refer to the code example documnetation for selecting the appropriate kit for testing the project
 
 ## Code Example List
-
-### USB 
-#### 1. USBFS Bootloadable
-This example demonstrates the basic operation of Bootloader and Bootloadable components when the communication interface is USB
-#### 2. USBFS Bootloader
-This example demonstrates the basic operation of Bootloader and Bootloadable components when the communication interface is USB
-#### 3. USBFS Bulk Wraparound
-This example demonstrates how to establish communication between the PC and Vendor-specific USB device
-#### 4. USBFS HID
-This code example demonstrates USB HID interface class operation by implementing a 3-button mouse
-#### 5. USBFS LPM PSoC 4
-This code example demonstrates USB Link Power Management (LPM) implementation
+### 1. CE95285 - CapSense CSD with PSoC 4
+This CapSense_CSD_P4_Design code example demonstrates operation of the CapSense CSD component with the PSoC Creator Software and PSoC 4 Pioneer Kit (CY8CKIT-042) or PSoC 4 S0 Kit (CY8CKIT-040) hardware. The component is configured with a linear slider. Visual feedback of a Slider touch can be observed via LEDs.
+### 2. CE95286 - PSoC® 4 CapSense_CSD Slider and Tuner
+This CapSense_CSD_P4 Tuner Design code example demonstrates operation of the CapSense CSD component with the PSoC Creator software, CapSense Tuner software and PSoC 4 Pioneer Kit hardware (CY8CKIT-042). The component is configured with a linear slider. The CapSense Tuner software is used for displaying scanning results. Visual feedback of a Slider touch can be observed via LEDs.
+### 3. CE95288 - CapSense Low Power with PSoC 4
+For PSoC 4000 devices only, this code example demonstrates a low power CapSense system. Any battery driven equipment requires very low system power consumption, while maintaining the required performance. The PSoC 4000 family supports a capacitive touch sensing known as CapSense® and two device low power modes: Sleep and Deep-Sleep. These low power modes enable PSoC 4 to achieve the required performance while operating at very low system power consumption.
+### 4. CE95289 - CapSense Proximity with PSoC 4
+For PSoC 4000 devices only, this project demonstrates a CapSense based proximity sensing design to control brightness of a LED. It will help user learn how to design a proximity sensor in their design using a PSoC 4 (4000 family) device and see how an approaching hand controls the intensity of a LED. It will employ the CapSense auto tuning ability, SmartSense®, to tune the proximity sensor of any wire/trace length. The project will also help user understand and design a simple Sleep-scan routine using the proximity sensor where the device will enter a periodic scan mode at a configurable rate and sleep once the sensor scan is complete to save power.
 
 ## References
 #### 1. PSoC 4 MCU
