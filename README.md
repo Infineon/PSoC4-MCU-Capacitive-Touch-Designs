@@ -17,7 +17,7 @@ Feel free to explore through the code example source files and Let us innovate t
 This repository provides examples that demonstrates how to develop PSoC 4 MCU based analog CapSense designs. 
 If you are new to developing projects with PSoC 4 MCU, we recommend you to refer the PSoC 4 Getting Started GitHub page which can help you familiarize with device features and guides you to create a simple PSoC 4 design with PSoC Creator IDE. For other block specific designs please refer to the following GitHub repositories:
 
-#### 1. Getting Started
+#### 1. [Getting Started](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Getting-Started)
 #### 2. Analog Designs
 #### 3. [Digital Designs](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Digital-Designs)
 #### 4. BLE
